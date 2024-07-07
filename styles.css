@@ -1,10 +1,35 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family:'Poppins';
+}
+nav{
+    font-size: 0.9rem;
 }
 
 .logo{
     height: 60px;
     border: 1px solid transparent;
     border-radius: 50%;
+}
+
+.left{
+    width: 40%;
+}
+.right{
+    width: 60%;
+}
+
+
+.headings{
+    margin-top: 20px;
+}
+.thin{
+    font-weight: 400;
+    font-size: 3rem;
+}
+.bold{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fb5c59;
 }
