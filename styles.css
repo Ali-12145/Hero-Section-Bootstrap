@@ -6,6 +6,14 @@
 nav{
     font-size: 0.9rem;
 }
+.navbar{
+    font-weight: normal;
+}
+
+.navbar a:hover{
+    border-bottom: 4px solid #fb5c59;
+    font-weight: bold;
+}
 
 .logo{
     height: 60px;
@@ -44,41 +52,28 @@ img{
 }
 
 .right{
-    margin: 0 0 10px auto;
-    background-color:#b33e3c;
+    margin: 20px 0 20px auto;
+    background-color: #fb5c59;  
+    width: 500px;
+    box-shadow: rgb(138, 200, 138) 5px 20px 12px;
     border-radius: 20px;
-    height: 60vh;    
-    text-align: center;
+    height: 60vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .subject{
-    
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 20px;
-    height: 70vh;
+    height: 85vh;
+    /* animation: bounce 3s ease-in-out infinite; */
+}
+.main{
+    margin-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-.right {
-    position: relative;
-    
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: updown 3s ease-in-out infinite;
-}
-
-.subject {
-    /* Adjust as needed */
-    animation: bounce 2s ease-in-out infinite;
-}
 
 @keyframes updown {
     0%, 100% {
@@ -94,6 +89,6 @@ img{
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-30px); /* Adjust as needed */
+        transform: translateY(-20px); /* Adjust as needed */
     }
 }
